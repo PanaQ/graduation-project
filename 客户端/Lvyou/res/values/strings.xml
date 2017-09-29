@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FXLoginActivity!</string>
+    <string name="app_name">Travel</string>
+    <string name="title_activity_tx">TXActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <style name="MMTabButton">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/bg_checkbox_menus</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingBottom">2.0dip</item>
+        <item name="android:paddingTop">2.0dip</item>
+    </style>
+
+    <string name="title_activity_user_manager">UserManagerActivity</string>
+    <string name="title_activity_guide_view_pager">GuideViewPagerActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_welcome_guide">WelcomeGuideActivity</string>
+
+</resources>

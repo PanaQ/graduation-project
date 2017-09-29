@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="@drawable/bgxueshan">
+
+	<LinearLayout
+	    android:id="@+id/llt"
+	    android:layout_width="280dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="20dp"
+	    android:layout_marginTop="200dp"
+	    android:orientation="vertical" >
+
+		<LinearLayout 
+		    android:orientation="horizontal"
+			android:layout_marginTop="20dp" 
+			android:id="@+id/llt1"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+		
+			<EditText 
+			    android:id="@+id/title" 
+			    android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:drawablePadding="8dp"
+                android:drawableLeft="@drawable/uesr"
+                android:hint="请输入账号"
+				>
+			</EditText>
+		</LinearLayout>
+
+
+		<LinearLayout 
+		    android:orientation="horizontal"
+			android:id="@+id/llt2" 
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+
+			<EditText
+			    android:id="@+id/passwordd"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:drawableLeft="@drawable/password"
+			    android:drawablePadding="8dp"
+			    android:hint="请输入密码"
+			    android:password="true" >
+			    
+			</EditText>
+		</LinearLayout>
+		<LinearLayout 
+		    android:orientation="horizontal"
+			android:id="@+id/llt3" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			
+		<CheckBox 
+		android:text="记住密码" 
+		android:id="@+id/CheckBox01"
+		android:layout_marginLeft="10dp"
+		android:textColor="#6495ED"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+		</CheckBox>
+	
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <Button
+	        android:id="@+id/loginin"
+	        android:layout_width="match_parent"
+	        android:layout_height="46dp"
+	        android:background="#1C86EE"
+	        android:text="登    录"
+	        android:textColor="#FFFFFF" 
+	        android:textSize="20sp"/>
+
+	</LinearLayout>
+
+</LinearLayout>

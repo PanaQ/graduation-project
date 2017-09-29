@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/ww1"
+	>
+	
+	<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<ImageView 
+		android:id="@+id/ImageView01" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:src="@drawable/pagetop"
+		android:layout_marginTop="-20dp">
+	</ImageView></LinearLayout>
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="332dp"
+	    android:layout_marginTop="15dp"
+	    android:background="@drawable/sb"
+	    android:orientation="vertical" >
+	
+	<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="20dp">
+	
+	<TextView 
+		android:text="标  题  :  " 
+		android:textColor="#6495ED"
+		android:textSize="22dp"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<TextView 
+		android:textSize="18dp"
+		android:id="@+id/TextView02" 
+		android:textColor="#4B0082"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	</LinearLayout>
+	
+	<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="20dp">
+	
+	<TextView 
+		android:text="时  间  :  " 
+		android:textColor="#6495ED"
+		android:textSize="22dp"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<TextView 
+		android:textSize="18dp"
+		android:id="@+id/TextView04" 
+		android:textColor="#4B0082"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	</LinearLayout>
+	
+	<LinearLayout
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="20dp">
+	
+	<TextView 
+		android:text="详   情 :  " 
+		android:textColor="#6495ED"
+		android:textSize="22dp"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	
+	<TextView 
+		android:layout_marginTop="10dp"
+		android:textSize="18dp"
+		android:id="@+id/TextView06" 
+		android:textColor="#4B0082"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</TextView>
+	</LinearLayout>
+</LinearLayout>
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	
+
+	</LinearLayout>
+
+</LinearLayout>

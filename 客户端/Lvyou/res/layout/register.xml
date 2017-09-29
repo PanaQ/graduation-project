@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="@drawable/zc">
+
+	<ScrollView 
+	    android:layout_marginTop="30dp"
+	    android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="10dp">
+
+
+			<LinearLayout 
+			    android:orientation="vertical" 
+			    android:id="@+id/LinearLayout01"
+				android:layout_margin="20dip" 
+				android:padding="10dp" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				>
+
+				<LinearLayout
+				     android:orientation="horizontal"
+					android:id="@+id/LinearLayout02" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView 
+					    android:id="@+id/TextView01" 
+					    android:text="帐　　 号:  "
+						android:textColor="#FFFFFF"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText 
+					    android:id="@+id/title"
+						android:layout_width="190dip"
+						 android:layout_height="wrap_content"
+						android:height="35dp"
+						 android:background="#00000000"
+						 android:textColor="#FFFFFF"
+						>
+					</EditText>
+
+				</LinearLayout>
+
+				<View 
+				    android:layout_height="2dip" 
+				    android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout 
+				    android:id="@+id/LinearLayout03"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView 
+					    android:id="@+id/TextView02" 
+					    android:text="密　　 码:  "
+						android:textColor="#FFFFFF"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						>
+					</TextView>
+
+					<EditText 
+					    android:id="@+id/EditText02"
+						android:layout_width="190dip" 
+						android:layout_height="wrap_content"
+						android:password="true"
+						android:background="#00000000"
+						android:textColor="#FFFFFF"
+						android:height="35dp"
+						>
+					</EditText>
+
+				</LinearLayout>
+
+				<View 
+				    android:layout_height="2dip" 
+				    android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout 
+				    android:id="@+id/LinearLayout04"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView 
+					    android:id="@+id/TextView03" 
+					    android:text="确认密码 :  "
+						android:textColor="#FFFFFF" 
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						>
+					</TextView>
+
+					<EditText 
+					    android:id="@+id/EditText03"
+						android:layout_width="190dip" 
+						android:layout_height="wrap_content"
+						android:password="true"
+						android:background="#00000000"
+						android:textColor="#FFFFFF"
+						android:height="35dp"
+						>
+					</EditText>
+				</LinearLayout>
+
+				<View 
+				    android:layout_height="2dip" 
+				    android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout 
+				    android:id="@+id/LinearLayout05"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView 
+					    android:id="@+id/TextView04" 
+					    android:text="电子邮件 :  "
+						android:textColor="#FFFFFF" 
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText 
+					    android:id="@+id/EditText04"
+						android:layout_width="190dip" 
+						android:layout_height="wrap_content"
+						android:background="#00000000"
+						android:textColor="#FFFFFF"
+						android:height="35dp"
+						>
+					</EditText>
+
+				</LinearLayout>
+
+				<View 
+				    android:layout_height="2dip" 
+				    android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout 
+				    android:id="@+id/LinearLayout06"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView 
+					    android:id="@+id/TextView05" 
+					    android:text="昵　　 称:  "
+						android:textColor="#FFFFFF" 
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText 
+					    android:id="@+id/EditText05"
+						android:layout_width="190dip" 
+						android:layout_height="wrap_content"
+						android:background="#00000000"
+						android:textColor="#FFFFFF"
+						android:height="35dp"
+						>
+					</EditText>
+
+				</LinearLayout>
+
+				<View 
+				    android:layout_height="2dip" 
+				    android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout 
+				    android:id="@+id/LinearLayout07"
+					android:orientation="horizontal"
+					 android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView06" 
+					    android:text="性　　 别:  "
+						android:textColor="#FFFFFF"
+						 android:layout_height="wrap_content"
+						android:layout_width="wrap_content" 
+						android:layout_marginTop="17.5dp"
+						android:height="30dp">
+					</TextView>
+
+					<RadioGroup 
+					    android:orientation="horizontal"
+					     android:id="@+id/rg11"
+						android:layout_width="fill_parent" 
+						android:layout_height="wrap_content"
+					
+						>
+						<RadioButton android:text="男　" 
+						    android:textColor="#FFFFFF"
+							android:id="@+id/RadioButton01"
+							 android:layout_width="wrap_content"
+							android:layout_height="wrap_content">
+						</RadioButton>
+
+						<RadioButton 
+						    android:text="女" 
+						    android:textColor="#FFFFFF"
+							android:id="@+id/RadioButton02" 
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content">
+						</RadioButton>
+					</RadioGroup>
+				</LinearLayout>
+
+				<View 
+				    android:layout_height="2dip" 
+				    android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout 
+				    android:id="@+id/LinearLayout08"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView 
+					    android:id="@+id/TextView07" 
+					    android:text="手　　 机:  "
+						android:textColor="#FFFFFF" 
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText 
+					    android:id="@+id/EditText06"
+						android:layout_width="190dip" 
+						android:layout_height="wrap_content"
+						android:background="#00000000"
+						android:textColor="#FFFFFF"
+						android:height="35dp">
+					</EditText>
+
+				</LinearLayout>
+
+			
+
+				<!--
+					<View 
+				    android:layout_height="2dip" 
+				    android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout
+				     android:id="@+id/LinearLayout09"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</LinearLayout>
+				
+				<LinearLayout 
+				    android:id="@+id/LinearLayout10"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<TextView 
+					    android:id="@+id/TextView09" 
+					    android:text="其他头像 :  "
+						android:textColor="#FFFFFF" 
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<ImageView 
+					    android:id="@+id/ImageView05"
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="5dp"></ImageView>
+
+					<Button 
+					    android:text="选择" android:id="@+id/choose"
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content">
+					</Button>
+				</LinearLayout>  
+					<LinearLayout android:id="@+id/LinearLayout11"
+					android:orientation="horizontal" android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<ImageView android:id="@+id/ImageView04"
+						android:layout_width="fill_parent" android:layout_height="wrap_content">
+					</ImageView>
+				</LinearLayout>
+				-->
+				
+
+			
+
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout android:id="@+id/LinearLayout12"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView android:id="@+id/TextView10" 
+					    android:text="职　　 业:  "
+						android:textColor="#FFFFFF" android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText android:id="@+id/EditText08"
+						android:layout_width="190dip" 
+						android:layout_height="wrap_content"
+						android:background="#00000000"
+						android:textColor="#FFFFFF"
+						android:height="35dp">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout 
+				    android:id="@+id/LinearLayout13"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView 
+					    android:id="@+id/TextView11" 
+					    android:text="所 在 地   :  "
+						android:textColor="#FFFFFF" 
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content">
+					</TextView>
+
+					<EditText 
+					    android:id="@+id/EditText09"
+						android:layout_width="190dip" 
+						android:layout_height="wrap_content"
+						android:background="#00000000"
+						android:textColor="#FFFFFF"
+						android:height="35dp">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" 
+				    android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<LinearLayout 
+				    android:id="@+id/LinearLayout14"
+					android:orientation="horizontal" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+					<TextView 
+					    android:id="@+id/TextView12" 
+					    android:text="组　　 织:  "
+						android:textColor="#FFFFFF" 
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						>
+					</TextView>
+
+					<EditText 
+					    android:id="@+id/EditText10"
+						android:layout_width="190dip" 
+						android:layout_height="wrap_content"
+						android:background="#00000000"
+						android:textColor="#FFFFFF"
+						android:height="35dp">
+					</EditText>
+
+				</LinearLayout>
+
+				<View android:layout_height="2dip" android:layout_width="fill_parent"
+					android:background="#FF909090" />
+
+				<TextView 
+				    android:id="@+id/TextView13" 
+				    android:text="关注类型 :  "
+					android:textColor="#FFFFFF" 
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content">
+				</TextView>
+
+				<CheckBox 
+				    android:text="风味小吃" 
+				    android:textColor="#FFFFFF"
+					android:id="@+id/CheckBox01" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</CheckBox>
+
+				<CheckBox 
+				    android:text="人文景观" 
+				    android:textColor="#FFFFFF"
+					android:id="@+id/CheckBox02" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</CheckBox>
+
+				<CheckBox android:text="自然风景" 
+				    android:textColor="#FFFFFF"
+					android:id="@+id/CheckBox03" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+				</CheckBox>
+
+				<Button 
+				    android:text="注　册" 
+				    android:id="@+id/chakandibiao"			    
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content"
+					android:background="@drawable/shape"			
+					android:gravity="center"
+					>
+				</Button>
+			</LinearLayout>
+				
+	</ScrollView>
+	<LinearLayout 
+	    	android:layout_width="fill_parent"
+	android:layout_height="30dp"
+	    ></LinearLayout>
+</LinearLayout>

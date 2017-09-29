@@ -1,0 +1,123 @@
+<ScrollView 
+    android:id="@+id/ScrollView01"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout 
+    android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent"
+	 android:layout_height="fill_parent"
+	android:orientation="vertical" 
+	android:background="@drawable/ww1">
+	
+	<LinearLayout 
+	    android:id="@+id/LinearLayout02"
+		android:layout_width="wrap_content" 
+		android:layout_height="80dp"
+		android:orientation="horizontal"
+		android:background="@drawable/jbpt">
+
+		
+	</LinearLayout>
+
+	<LinearLayout
+	    android:id="@+id/LinearLayout07"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+
+	    <TextView
+	        android:id="@+id/TextView01"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="8dp"
+	        android:text="标    题:"
+	        android:textColor="#6495ED"
+	        android:textSize="25dp" >
+	    </TextView>
+
+	    <EditText
+	        android:id="@+id/EditText03"
+	        android:layout_width="180px"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="15dp"
+	        android:layout_marginTop="8dp"
+	        android:layout_weight="1.90"
+	        android:hint="请输入标题" >
+	    </EditText>
+	</LinearLayout>
+
+	<LinearLayout
+	     android:id="@+id/LinearLayout09"
+		android:layout_width="320dp" 
+		android:layout_height="345dp"
+		android:orientation="vertical"
+		 android:layout_marginTop="2dp"
+		android:background="@drawable/sb">
+		<LinearLayout android:id="@+id/LinearLayout04"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:orientation="vertical" 
+			android:layout_marginLeft="35dp"
+			android:layout_marginTop="10dp">
+			<TextView 
+			    android:text="日       期："
+			     android:id="@+id/TextView02"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#6495ED"
+				 android:textSize="18dp"></TextView>
+
+			<LinearLayout android:id="@+id/LinearLayout03"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content">
+				<EditText 
+				    android:hint="选择相伴旅游时间"
+				    android:id="@+id/title"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"></EditText>
+				<ImageButton 
+				    android:id="@+id/button1"
+					android:layout_width="46dp" 
+					android:layout_height="46dp"
+					android:src="@drawable/heisanjiao"></ImageButton>
+			</LinearLayout>
+		</LinearLayout>
+	   <LinearLayout 
+		    android:id="@+id/LinearLayout05"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" 
+			android:layout_marginLeft="35dp">
+			<TextView android:text="详       情：" 
+			    android:id="@+id/TextView03"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#6495ED" 
+				android:textSize="18px"></TextView>
+			<LinearLayout 
+			    android:id="@+id/LinearLayout06"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:orientation="vertical">
+				<EditText 
+				    android:hint="输入详情，如目的地，旅游天数，队友要求~" 
+				    android:id="@+id/EditText02"
+					android:layout_width="250dp" 
+					android:layout_height="160dp"></EditText>
+	      	<Button
+				    android:id="@+id/chakandibiao"
+				    android:layout_width="wrap_content"
+				    android:layout_height="50px"
+				    android:background="@drawable/sendjb"
+				    />
+			</LinearLayout>
+
+
+		</LinearLayout>
+	</LinearLayout>
+	
+
+</LinearLayout>
+</ScrollView> 
